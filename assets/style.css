@@ -1,0 +1,21 @@
+body {
+  background: #fbfbfb;
+  font-family: "Roboto Slab", serif;
+  color: #2c3e50;
+}
+.font-Poppins {
+  font-family: "Poppins", sans-serif;
+}
+.text-end {
+  font-family: "Lateef", serif;
+}
+a {
+  text-decoration: none;
+  color: #568eb6;
+}
+a:hover {
+  color: #568eb6;
+}
+footer {
+  font-family: sans-serif;
+}
