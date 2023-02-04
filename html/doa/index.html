@@ -32,14 +32,14 @@
 <body>   
     <div class="sticky-top">
       <div class="p-2 bg-light bg-gradient text-center shadow-sm mb-2">
-         <text class="display-6">MiniDoa</text>
+         <text class="display-6">MiniQuran</text>
          Berdoa dimana saja, kapan saja
       </div>
    </div>
    <div class="container">
-    <input class="form-control mb-2" id="cari" onkeyup="myFunction()" placeholder="ðŸ” Cari ..."> 
+    <input class="form-control mb-2" id="cari" onkeyup="myFunction()" placeholder="🔍 Cari ..."> 
       {% for doa in data %}
-      <div class="border border-dark bg-white p-2 mb-1 border-opacity-10">{{ doa.id }}. <a href="/Doa-Doa/{{ doa.id }}">{{ doa.nama }}</a>
+      <div class="border border-dark bg-white p-2 mb-1 border-opacity-10">{{ doa.id }}. <a href="/doa/{{ doa.id }}">{{ doa.nama }}</a>
       </div>
       {% endfor %}
   </div>
