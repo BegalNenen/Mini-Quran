@@ -22,7 +22,7 @@ def ayat():
     
 # For Loop untuk membuat halaman dengan nama angka secara otomatis
 numbers = [i for i in range(1, 114)]
-@app.route('/ayat/<int:n>')
+@app.route('/surat/<int:n>')
 def isi(n):
     url = f'https://equran.id/api/v2/surat/{n}'
     response = requests.get(url)
